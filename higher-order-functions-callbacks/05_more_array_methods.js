@@ -29,3 +29,12 @@ console.log(firstEven);
 //push
 numbers.push(2);
 console.log(numbers);
+
+
+// all in one
+const allIn = numbers
+    .map((num) => num * 2)
+    .filter((num) => num % 2 === 0)
+    .reduce((acc, num) => acc + num);
+
+console.log(allIn);
