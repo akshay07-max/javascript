@@ -9,3 +9,4 @@ const obj = {
 console.log(obj)
 
 // end of an objects
+
