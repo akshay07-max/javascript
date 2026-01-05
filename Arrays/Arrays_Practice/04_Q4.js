@@ -7,4 +7,12 @@ const count = arr.reduce((a, elem) => {
     
 })
 
-console.log(count)
+// console.log(count)
+
+// without reduce
+let sum = 0
+const countW = arr.forEach((a) => {
+    sum += a
+})
+
+console.log(sum);
