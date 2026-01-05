@@ -5,7 +5,7 @@ const arr = [2, 4, 1, 3, 6, 5, 7, 8, 9, 12];
 // to square each even we can use map
 // to summary can use reduce.
 
-const getSum = arr
+const getSum = arr 
     .filter((num) => {
         console.log("filtering all the even numbers from the array")
         console.log(num%2===0)
