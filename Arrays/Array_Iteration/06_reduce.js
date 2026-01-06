@@ -2,3 +2,10 @@
 
 // use cases : calculating the sum of the whole Array, etc
 
+const arr = [12, 23, 12]
+
+const getSum = arr.reduce((sum, val) => {
+    return sum+val
+})
+
+console.log(getSum) // 47 will be the O/P
