@@ -28,3 +28,4 @@ console.log(double)
 // Map :    Do not modifies the original array, create a copy of the original array.
 //          Modifies the each element of an array.
 //          Return an array.  
+
