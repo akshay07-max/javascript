@@ -15,3 +15,8 @@ const numbers = [1, 4, 5, 10, 44, 23]
 const greater = numbers.find(num => num > 10)
 
 console.log(greater);
+
+
+// Question: Find the first element which has a square root. like if there is 4 in the array then return the 4 and it's square root.
+
+
