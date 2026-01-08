@@ -7,4 +7,6 @@ const allIn = arr
         return accumulator + current; // get the sum of the filtered and modified array
     })
 
-    console.log(allIn) // 224 will be the output.
+console.log(allIn) // 224 will be the output.
+    
+// test comment.
