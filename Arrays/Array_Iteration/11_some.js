@@ -15,4 +15,12 @@ console.log(hasEven); // return true if the array has even number.
 console.log(checkOdd);  // return false for arr2 because it do not have the even number.
 
 
+const numbers = [1, 3, 5, 70, 8, 4];
+
+const greater = numbers.some((num) => {
+    return num > 10
+})
+
+console.log(greater);
+
 
