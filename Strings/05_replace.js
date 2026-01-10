@@ -1,16 +1,8 @@
-const text = "Hello, World"
-const text1 = "Me and my Darling were flying in a train, me and my darling were flying in a train. The train catches fire we fall in side the teren..."
 
-// text.replace("World", "Javascript")
+// Regular expression with regular.
 
-// console.log(text) // original text will be printed, the string is immutable. replace creates a copy of the original string.
+const text = "Hello, My name is John, I'm 6 feet talL and weight is 56 kg"
 
+const result = text.replace(/\d+/g, "X") //Hello, My name is John, I'm X feet talL and weight is X kg
 
-
-const rep = text.replace("World", "Javascript.");
-console.log(rep);
-
-// replace all : replace all the occurrence of the passed string.
-const repAll = text1.replaceAll("train", "plane")
-
-console.log(repAll)
+console.log(result)
