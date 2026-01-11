@@ -22,3 +22,20 @@ const obj2 = {
 }
 
 console.log(obj2)
+
+// function arguments
+const num = [1, 2, 3];
+
+console.log(Math.max(...num))
+
+
+// rest parameter
+function sum(...number) {
+    return num.reduce((acc, num) => {
+        return acc + num
+    }, 0)
+}
+
+const getSum = sum(...num);
+
+console.log(getSum)
