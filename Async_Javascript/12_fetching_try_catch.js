@@ -16,3 +16,5 @@ async function getUserPosts(userId) {
     throw error;
   }
 }
+
+getUserPosts(1)
