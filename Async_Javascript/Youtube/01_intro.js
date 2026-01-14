@@ -32,3 +32,16 @@ b()
 // Single Treaded:
 // A thread is a simple a process that js pragram can use to run a task.
 // Each thread can do one task at a time.
+
+
+// Problem with Synchronous javascript, blocking, single threaded model of javascript.
+// let response = fetchDataFromDB("eg/endpoint")
+// displayData(response)
+
+// fetchDataFromDB("eg/endpoint"); could take 1 second or even more
+// During that time, we can't run any further code.
+// JS, if it simply proceeds to the next line without waiting, We have an error because data is not what we expect it to be.
+// we need a way to have asynchronous behavior with Javascript.
+
+
+
