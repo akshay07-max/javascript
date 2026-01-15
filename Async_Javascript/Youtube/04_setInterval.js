@@ -8,6 +8,20 @@
 // argument zero or more
 
 
-setInterval(() => {
-    console.log("Logging every 2 seconds")
-}, 2000)
+// setInterval(() => {
+//     console.log("Logging every 2 seconds")
+// }, 2000)
+
+
+// function greet() {
+//     console.log("Hello")
+// }
+
+
+// setInterval(greet, 2000)
+
+function greet(name) {
+    console.log(`My name is ${name}`)
+}
+
+setInterval(greet, 2000, "Akshay")
