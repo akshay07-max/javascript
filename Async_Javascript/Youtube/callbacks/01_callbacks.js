@@ -1,0 +1,10 @@
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback();
+}
+
+function afterGreeting() {
+  console.log("Welcome to JavaScript!");
+}
+
+greet("Akshay", afterGreeting);
