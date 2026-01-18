@@ -5,4 +5,16 @@ function throwError(a, b) {
     return a / b
 }
 
-console.log(throwError(2, 0))
+// console.log(throwError(2, 0))
+
+try {
+    const division = throwError(20, 2)
+    console.log("division",division);
+}
+catch (err) {
+    console.log(err.message);
+}
+finally {
+    console.log("done")
+}
+
