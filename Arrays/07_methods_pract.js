@@ -12,3 +12,16 @@
 // 11. includes
 // 12. reverse
 // 13. sort
+
+
+const arr = [12, 23, 54, 22, 11];
+
+// push in the array
+arr.push(12); // modifies original array
+
+console.log(arr)
+
+arr.pop(12)
+
+console.log(arr) // modifies original array
+
