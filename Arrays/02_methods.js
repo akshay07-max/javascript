@@ -63,3 +63,6 @@ console.log(num4)
 const num5 = [21, 40, 23, 45]
 num5.sort((a, b) => a - b)
 console.log(num5)
+
+
+
