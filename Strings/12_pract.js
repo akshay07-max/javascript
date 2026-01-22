@@ -6,3 +6,6 @@ String methods:
 5. searching
 6. trimming
 7. template literals
+8. replace
+9. compare
+10. convert to string
