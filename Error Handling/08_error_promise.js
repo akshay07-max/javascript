@@ -12,4 +12,9 @@ function fetchData(url) {
     })
 }
 
-fetchData()
+fetchData().then((data) => {
+    console.log(data)
+})
+    .catch((error) => {
+        console.log(error.message)
+    })
