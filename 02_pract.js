@@ -1,8 +1,17 @@
 console.log("async, await")
 
-async function getData(data){
-     data = await rData()
+async function getData(){
+     const data = await rData()
      return data
 }
 
+fuction rData(){
+
+   return {
+       "key": "value",
+       "new": "newVal"
+    }
+}
+
+getData()
      
